@@ -1,3 +1,14 @@
+
+function calculate (){
+  let cal = (document.getElementById("school").value).trim();
+  let candi = (document.getElementById("candi").value).trim();
+  var t1;
+  if (school =="1"){
+    t1 = candi * 92.95 ;
+
+  }
+}
+
 function checkSID() {
   let sid = (document.getElementById("sid").value).trim();
   var check = isNaN(sid);
@@ -29,7 +40,7 @@ function validateForm(){
 		  document.getElementById("candi").focus();
 		  return false;
 		}else{
-			alert("Your input data passes validation!!");
+			alert("Your input data passes validation!! ");
 			return true;
 		}
 	}
